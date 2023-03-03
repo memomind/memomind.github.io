@@ -3,7 +3,7 @@ widget: hero
 widget_id: RECENT-POSTS
 headless: true
 weight: 10
-title: Memomind - Memory, Emotion and Mind
+title: Memory, Emotion and Mind
 hero_media: welcome.jpg
 design:
   columns: "1"
