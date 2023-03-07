@@ -24,7 +24,7 @@ main:
     url: https://app.memomind.cn/text2music/
   - name: test-app
     parent: product
-    url: https://app.memomind.cn/text_app/
+    url: https://app.memomind.cn/test_app/
 
   # About
   - name: About
