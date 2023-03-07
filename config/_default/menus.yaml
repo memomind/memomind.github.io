@@ -4,21 +4,41 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
-    weight: 10
+  
   - name: News
     url: post
-    weight: 20
-  - name: People
-    url: people
     weight: 30
-  - name: Events
-    url: event
-    weight: 40
-  - name: Publications
+  # - name: Events
+  #   url: event
+  #   weight: 40
+  - name: Research
     url: publication
-    weight: 50
+    weight: 10
+
+  # producct
+  - name: Product
+    identifier: product
+    weight: 20
+  - name: Text2Music
+    parent: product
+    url: https://app.memomind.cn/text2music/
+  - name: test-app
+    parent: product
+    url: https://app.memomind.cn/text_app/
+
+  # About
+  - name: About
+    identifier: about
+    weight: 40
   - name: Contact
+    parent: about
     url: contact
-    weight: 60
+    weight: 30
+  - name: Tour
+    parent: about
+    url: tour
+    weight: 10
+  - name: People
+    parent: about
+    url: people
+    weight: 20
