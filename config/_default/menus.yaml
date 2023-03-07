@@ -22,9 +22,11 @@ main:
   - name: Text2Music
     parent: product
     url: https://app.memomind.cn/text2music/
+    weight: 1
   - name: test-app
     parent: product
     url: https://app.memomind.cn/test_app/
+    weight: 2
 
   # About
   - name: About
