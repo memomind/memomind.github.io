@@ -8,13 +8,13 @@ draft: false
 featured: false
 tags:
   - Multimodal
-external_link: https://nlp-guild.github.io/text2music/
+external_link: https://memomind.cn/text2music/
 links:
   - url: https://github.com/NLP-Guild/text2music
     name: GitHub
     icon_pack: fab
     icon: github
-  - url: https://nlp-guild.github.io/text2music/
+  - url: https://memomind.cn/text2music/
     name: Website
 image:
   filename: featured.png
